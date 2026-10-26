@@ -1,0 +1,367 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض المشاريع الرقمية | آمنة محمد</title>
+<!-- وسوم المعاينة الاحترافية للواتساب ومواقع التواصل (Open Graph) -->
+  <meta name="description" content="معرض المشاريع الرقمية — مطورة ومصممة واجهات ويب، أقدم مواقع وتطبيقات تفاعلية متجاوبة وعصرية.">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://amnah-portfolio.pages.dev/">
+  <meta property="og:title" content="معرض المشاريع الرقمية | آمنة محمد">
+  <meta property="og:description" content="معرض أعمال آمنة محمد — مطورة ومصممة واجهات ويب، أقدم حلولاً وتطبيقات رقمية متكاملة وسريعة ومتجاوبة مع الجوال.">
+  <meta property="og:image" content="https://amnah-portfolio.pages.dev/ohda-market.webp">
+
+  <!-- وسوم لتويتر / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="معرض المشاريع الرقمية | آمنة محمد">
+  <meta name="twitter:description" content="معرض أعمال آمنة محمد — مطورة ومصممة واجهات ويب حديثة.">
+  <meta name="twitter:image" content="https://amnah-portfolio.pages.dev/ohda-market.webp">
+  <!-- خط تجوال العصري (محسّن للأداء العالي) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+    </noscript>
+    <link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- كانفاس النجوم المتحركة -->
+  <canvas id="space-canvas"></canvas>
+
+  <div class="container">
+    
+    <!-- قسم العنوان -->
+    <header>
+      <h1 class="main-title">معرض المشاريع الرقمية</h1>
+      <p class="subtitle">تطوير وتصميم واجهات المستخدم الحديثة • آمنة محمد</p>
+    </header>
+
+    <!-- شريط تصفية الأقسام -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">جميع الأعمال (8)</button>
+      <button class="filter-btn" data-filter="business">مقاهي ومتاجر (4)</button>
+      <button class="filter-btn" data-filter="platform">منصات وخدمات (3)</button>
+      <button class="filter-btn" data-filter="entertainment">ترفيه وهوايات (1)</button>
+    </div>
+
+     <main class="projects-grid" id="projectsGrid">
+
+      <!-- 1. منصة عُهدة للمقتنيات الكريمة -->
+      <article class="project-card" data-cat="business">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">ohda-market.netlify.app</span>
+        </div>
+        <img src="ohda-market.webp" alt="منصة عُهدة للمقتنيات الكريمة" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">منصة وسوق مقتنيات</span>
+          <h2 class="project-title">منصة عُهدة للمقتنيات الكريمة</h2>
+          <p class="project-desc">سوق بيع مقتنيات ثمينة يعتمد على وسام صدق الوصف ونزاهة العرض، مع حاسبة تقييم وقنوات تواصل تفاعلية فورية.</p>
+          <div class="tech-tags">
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">WhatsApp API</span>
+          </div>
+          <a href="https://ohda-market.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+      <!-- 2. قائمة لافندر كافيه التفاعلية -->
+      <article class="project-card" data-cat="business">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">lavender-cafe-menu.netlify.app</span>
+        </div>
+        <img src="lavender-cafe-menu.webp" alt="قائمة لافندر كافيه التفاعلية" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">قائمة وضيافة</span>
+          <h2 class="project-title">قائمة لافندر كافيه التفاعلية</h2>
+          <p class="project-desc">صفحة هبوط وقائمة رقمية عصرية متخصصة للمقاهي بألوان اللافندر الهادئة مع تقسيم منظم للمشروبات والمخبوزات.</p>
+          <div class="tech-tags">
+            <span class="tag">CSS Grid</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Responsive Menu</span>
+          </div>
+          <a href="https://Lavander-d1u.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+      <!-- 3. صالة سترايك زون للبولينج -->
+      <article class="project-card" data-cat="entertainment">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">strike-zone-bowling.pages.dev</span>
+        </div>
+        <img src="strike-zone-bowling.webp" alt="صالة سترايك زون للبولينج" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">ترفيه وحجوزات</span>
+          <h2 class="project-title">صالة سترايك زون للبولينج</h2>
+          <p class="project-desc">تصميم موقع ترفيهي بطابع نيون عصري داكن. يوفر تجربة استعراض مسارات اللعب وحجز المسار أونلاين بسهولة.</p>
+          <div class="tech-tags">
+            <span class="tag">Booking Form</span>
+            <span class="tag">Neon Theme</span>
+            <span class="tag">Mobile Friendly</span>
+          </div>
+          <a href="https://strike-zone-bowling.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+      <!-- 4. متجر نفحات مكة -->
+      <article class="project-card" data-cat="business">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">nafahat-makkah.netlify.app</span>
+        </div>
+        <img src="nafahat-makkah.webp" alt="متجر نفحات مكة" class="project-img" loading="lazy" decoding="async">
+ <div class="project-content">
+          <span class="project-category">متاجر إلكترونية</span>
+          <h2 class="project-title">متجر نفحات مكة</h2>
+          <p class="project-desc">متجر إلكتروني لعرض وتوزيع منتجات العطور والبخور الفاخرة بواجهة شرقية متقنة وسريعة التصفح.</p>
+          <div class="tech-tags">
+            <span class="tag">E-Commerce</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">HTML5 / CSS3</span>
+          </div>
+          <a href="https://nafahat-makkah.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+<!-- بطاقة مشروع متجر رِواء البيت -->
+<div class="project-card">
+  <img src="rawaa-home.webp" alt="متجر رواء البيت" class="project-img" style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px 12px 0 0;">
+  <div class="project-info">
+    <h3>متجر رِواء البيت للأدوات المنزلية</h3>
+    <p>
+      متجر إلكتروني تفاعلي متكامل لعرض الأدوات المنزلية، المنظفات، والمنتجات البلاستيكية.
+      يتضمن واجهة مستخدم متجاوبة، ميزة تصنيف وفلترة المنتجات، وإمكانية الطلب المباشر عبر واتساب.
+    </p>
+    <div class="project-tags">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Cloudflare Pages</span>
+    </div>
+    <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+      <a href="https://rawaa-home.pages.dev" target="_blank" class="btn" style="padding: 8px 16px; background-color: #0f766e; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500;">
+        معاينة حية ↗
+      </a>
+      <a href="https://github.com/amnah-dev1/rawaa-home" target="_blank" class="btn" style="padding: 8px 16px; background-color: #f1f5f9; color: #0f172a; text-decoration: none; border: 1px solid #cbd5e1; border-radius: 6px; font-weight: 500;">
+        كود المشروع (GitHub) ↗
+      </a>
+    </div>
+  </div>
+</div>
+      <!-- 5. مساحة رهو الإبداعية -->
+      <article class="project-card" data-cat="platform">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">rahw-space.pages.dev</span>
+        </div>
+        <img src="rahw-space.webp" alt="مساحة رهو الإبداعية" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">منصات إبداعية</span>
+          <h2 class="project-title">مساحة رهو الإبداعية</h2>
+          <p class="project-desc">منصة رقمية لمساحات العمل المشتركة والفعاليات، بتصميم بصري هادئ يركز على الإنتاجية وتجربة المستخدم.</p>
+          <div class="tech-tags">
+            <span class="tag">Modern UI</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <a href="https://rahw-space.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+      <!-- 6. منصة سكون -->
+      <article class="project-card" data-cat="platform">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">sukun-sa.pages.dev</span>
+        </div>
+        <img src="sukun-sa.webp" alt="منصة سكون" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">صحة وجودة حياة</span>
+          <h2 class="project-title">منصة سكون التفاعلية</h2>
+          <p class="project-desc">واجهة ويب تفاعلية صُممت بألوان هادئة وتناسق مريح لتعزيز التركيز وتجربة التأمل الرقمي للمستخدمين.</p>
+          <div class="tech-tags">
+            <span class="tag">Clean UI</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Minimalist</span>
+          </div>
+          <a href="https://sukun-sa.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+      <!-- 7. بورتفوليو مطورة المواقع -->
+      <article class="project-card" data-cat="platform">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">amnah-cv.netlify.app</span>
+        </div>
+        <img src="amnah-cv.webp" alt="بورتفوليو مطورة المواقع" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">معرض أعمال شخصي</span>
+          <h2 class="project-title">سيرة ذاتية وبورتفوليو تفاعلي</h2>
+          <p class="project-desc">موقع تعريفي متكامل يعرض صفحات الهبوط والمشاريع البرمجية مع دعم المحتوى الإنجليزي والتصميم المتجاوب.</p>
+          <div class="tech-tags">
+            <span class="tag">Frontend</span>
+            <span class="tag">Portfolio</span>
+            <span class="tag">English Content</span>
+          </div>
+          <a href="https://amnah-cv.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+ <!-- 8. متجر جوزية وتارت -->
+      <article class="project-card" data-cat="business">
+        <div class="mockup-header">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="browser-url">juziah-and-tarte.pages.dev</span>
+        </div>
+        <img src="juziah-and-tarte.webp" alt="متجر جوزية وتارت" class="project-img" loading="lazy" decoding="async">
+        <div class="project-content">
+          <span class="project-category">أغذية وضيافة</span>
+          <h2 class="project-title">متجر جوزية وتارت</h2>
+          <p class="project-desc">قائمة طلب رقمية متخصصة في الحلويات الفاخرة الطازجة مع دعم الطلب المسبق المباشر عبر تطبيق واتساب.</p>
+          <div class="tech-tags">
+            <span class="tag">Food Menu</span>
+            <span class="tag">Direct Order</span>
+            <span class="tag">Mobile UX</span>
+          </div>
+          <a href="https://juziah-and-tarte.pages.dev" target="_blank" class="preview-btn">معاينة الموقع الحي ↗</a>
+        </div>
+      </article>
+
+    </main>
+
+  </div>
+
+  <!-- الفوتر مع وسائل التواصل المضيئة -->
+  <footer class="site-footer">
+    <h3 class="footer-title">لنتواصل ونبني مشروعك القادم</h3>
+    <p class="footer-subtitle">متاحة لتطوير وتصميم واجهات المستخدم والمشاريع الرقمية العصرية</p>
+
+    <div class="footer-buttons">
+      <!-- زر الواتساب -->
+      <a href="https://wa.me/966533532698" target="_blank" class="contact-pill whatsapp-pill">
+        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.814 2.791.814 3.179 0 5.766-2.587 5.767-5.766.002-3.182-2.584-5.8-5.767-5.8zm3.393 8.243c-.144.405-.837.774-1.17.824-.312.045-.694.072-2.115-.515-1.745-.722-2.883-2.493-2.97-2.609-.088-.116-.708-.941-.708-1.793 0-.852.447-1.27.608-1.445.143-.157.381-.229.608-.229.073 0 .138.004.198.007.172.008.258.019.373.294.143.344.489 1.192.532 1.279.043.088.072.19.014.305-.058.115-.088.188-.173.287-.087.1-.184.223-.262.299-.089.088-.182.183-.078.361.103.179.46 1.015 1.018 1.503.717.628 1.32.822 1.509.916.188.094.298.082.408-.044.111-.126.474-.551.602-.741.127-.19.255-.158.428-.094.174.064 1.103.52 1.293.615.191.095.318.143.364.222.047.079.047.458-.097.863z"/></svg>
+        <span>واتساب: 966533532698+</span>
+      </a>
+ <!-- زر البريد -->
+      <a href="mailto:amnhmslh6@gmail.com" class="contact-pill email-pill">
+        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <span>البريد: amnhmslh6@gmail.com</span>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>تطوير وتصميم الواجهات بواسطة <strong>آمنة محمد</strong> © 2026 • جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <!-- أزرار تواصل عائمة سريعة -->
+  <div class="floating-contact">
+    <a href="https://wa.me/966533532698" target="_blank" class="float-btn float-whatsapp" title="تواصل واتساب">
+      <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.814 2.791.814 3.179 0 5.766-2.587 5.767-5.766.002-3.182-2.584-5.8-5.767-5.8zm3.393 8.243c-.144.405-.837.774-1.17.824-.312.045-.694.072-2.115-.515-1.745-.722-2.883-2.493-2.97-2.609-.088-.116-.708-.941-.708-1.793 0-.852.447-1.27.608-1.445.143-.157.381-.229.608-.229.073 0 .138.004.198.007.172.008.258.019.373.294.143.344.489 1.192.532 1.279.043.088.072.19.014.305-.058.115-.088.188-.173.287-.087.1-.184.223-.262.299-.089.088-.182.183-.078.361.103.179.46 1.015 1.018 1.503.717.628 1.32.822 1.509.916.188.094.298.082.408-.044.111-.126.474-.551.602-.741.127-.19.255-.158.428-.094.174.064 1.103.52 1.293.615.191.095.318.143.364.222.047.079.047.458-.097.863z"/></svg>
+    </a>
+    <a href="mailto:amnhmslh6@gmail.com" class="float-btn float-email" title="إرسال بريد">
+      <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    </a>
+  </div>
+
+  <!-- كود تشغيل تصفية الأقسام + محرك النجوم المتحركة -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // --- 1. تفعيل تصفية الأقسام (تظهر فقط مشاريع القسم المختار) ---
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          const filterValue = this.getAttribute('data-filter');
+
+          projectCards.forEach(card => {
+            const cardCat = card.getAttribute('data-cat');
+            if (filterValue === 'all' || cardCat === filterValue) {
+              card.classList.remove('hide');
+            } else {
+              card.classList.add('hide');
+            }
+          });
+        });
+      });
+
+      // --- 2. محرك النجوم والفضاء المتحرك ---
+      const canvas = document.getElementById('space-canvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        let w = canvas.width = window.innerWidth;
+        let h = canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+          w = canvas.width = window.innerWidth;
+          h = canvas.height = window.innerHeight;
+        });
+
+        const stars = [];
+        const count = 110; // عدد النجوم
+
+        for (let i = 0; i < count; i++) {
+          stars.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            size: Math.random() * 2.2 + 0.5,
+            speedX: (Math.random() - 0.5) * 0.35,
+            speedY: (Math.random() - 0.5) * 0.35,
+            alpha: Math.random() * 0.8 + 0.2,
+            twinkle: (Math.random() * 0.015) + 0.005,
+            color: Math.random() > 0.35 ? '#00f0ff' : '#ffffff'
+          });
+        }
+
+        function animate() {
+          ctx.clearRect(0, 0, w, h);
+
+          stars.forEach(s => {
+            s.x += s.speedX;
+            s.y += s.speedY;
+
+            // إعادة النجوم من الحواف
+            if (s.x < 0) s.x = w;
+            if (s.x > w) s.x = 0;
+            if (s.y < 0) s.y = h;
+            if (s.y > h) s.y = 0;
+ // وميض النجم
+            s.alpha += s.twinkle;
+            if (s.alpha > 0.95 || s.alpha < 0.2) {
+              s.twinkle = -s.twinkle;
+            }
+
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+            ctx.fillStyle = s.color;
+            ctx.globalAlpha = Math.max(0, Math.min(1, s.alpha));
+            ctx.shadowBlur = s.size > 1.4 ? 8 : 0;
+            ctx.shadowColor = s.color;
+            ctx.fill();
+          });
+
+          ctx.globalAlpha = 1;
+          requestAnimationFrame(animate);
+        }
+
+        animate();
+      }
+
+    });
+  </script>
+
+</body>
+</html>
